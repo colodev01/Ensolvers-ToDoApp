@@ -1,0 +1,1 @@
+CREATE TABLE todo (id serial not null primary key,description VARCHAR(25) NOT NULL, done BOOLEAN NOT NULL DEFAULT FALSE);
