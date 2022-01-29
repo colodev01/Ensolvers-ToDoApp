@@ -21,6 +21,7 @@ function TodoForm({addTodo}) {
                 name="text"
                 type="text"
                 size="small"
+                placeholder = "Add new todo..."
                 style={{ margin: 8 }}
                 value={todoName}
                 onChange={handleTodoName}
